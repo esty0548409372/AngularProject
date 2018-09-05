@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 offset-sm-3">
+      <a routerLink="/bookStore/account/login" style="padding-bottom: 20px; padding-top: 20px;" class="mat-icon material-icons">
+        <img style="width: 143px;
+        margin-top: 27%;" src="https://image.flaticon.com/icons/svg/891/891389.svg">
+      </a>
+      <a routerLink="/bookStore/account/register" style="padding-bottom: 20px; padding-top: 20px;" class="mat-icon material-icons">
+        <img style="width: 143px;
+        margin-top: 27%;" src=" https://image.flaticon.com/icons/svg/891/891401.svg">
+      </a>
+      <!-- <button (click)="logout()" *ngIf="currentUser" class="mat-icon material-icons"> -->
+        <img (click)="logout()"  style="width: 143px;
+        margin-top: 27%;" src="https://image.flaticon.com/icons/svg/891/891391.svg">
+
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

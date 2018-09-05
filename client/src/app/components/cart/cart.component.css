@@ -1,0 +1,10 @@
+
+  .cartEmptyImg  {
+    width: 166px;
+    height: 98px;
+    content: "";
+    display: block;
+    background-image: url("https://gccontent.mysupermarket.co.il/checkout/reviewcart/img/carts_icon.png");
+    margin: 27px auto;
+    margin-bottom: 13px;
+}
